@@ -1,0 +1,71 @@
+
+ body {
+    font-weight: bolder;
+	background-image: url("mon.jpg"); 
+		background-size: cover;
+  }
+  
+  .main-heading {
+    font-family: "Raleway";
+    font-weight: bolder;
+    font-size: 3.5rem;
+    margin-top: 1.875rem;
+    text-align: center;
+	color: #add8e6;
+  }
+  
+  .header i {
+    color: black;
+    background-color: #c0c0c0;
+    border-radius: 50%;
+    position: absolute;
+    right: 70px;
+    top: 40px;
+    opacity: 0.6;
+  }
+  
+  .header i:hover {
+    opacity: 0.8;
+  }
+  
+  .customer-table {
+    padding: 5% 0;
+    padding-left: 20%;
+  }
+  
+  table th, td {
+    border: 1px solid white;
+    width: 20%;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 1.3rem;
+  }
+  
+  th {
+    font-family: "Raleway";
+    color: #ffffff;
+    border-radius: 2px;
+    background-image: linear-gradient(#1687a7, #276678);
+  }
+  
+  td {
+    color: c0c0c0;
+    background-color:aqua;
+    opacity: 0.7;
+  }
+  
+  td:hover {
+    opacity: 1.0;
+  }
+  
+  .button {
+    text-align: center;
+    padding-bottom: 5%;
+  }
+  
+  .my-btn {
+    margin-left: 0%;
+    margin-top: 2%;
+    margin-bottom: -3%;
+    font-weight: bolder;
+  }  
